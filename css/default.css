@@ -10811,24 +10811,74 @@ article.article .article-meta {
   overflow-x: auto;
   margin-bottom: 0.5rem;
 }
+article.article .title {
+  margin: 2rem 0;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.5;
+}
 article.article .content {
   word-wrap: break-word;
   font-size: 1.1rem;
 }
+article.article .content h1,
+article.article .content h2,
+article.article .content h3,
+article.article .content h4,
+article.article .content h5 {
+  font-weight: 600;
+  line-height: 1.25;
+}
+article.article .content h3,
+article.article .content h4,
+article.article .content h5 {
+  margin-bottom: 1em;
+}
+article.article .content h1,
+article.article .content h2,
+article.article .content h3,
+article.article .content h4,
+article.article .content h5,
+article.article .content pre,
+article.article .content code,
+article.article .content blockquote {
+  margin-top: 2.5rem;
+}
 article.article .content h1 {
-  font-size: 1.75em;
+  font-size: 1.85em;
+  margin-top: 3.6rem;
+  margin-bottom: 1.8rem;
 }
 article.article .content h2 {
-  font-size: 1.5em;
+  font-size: 1.6em;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #eaecef;
+  margin-bottom: 0;
 }
 article.article .content h3 {
-  font-size: 1.25em;
+  font-size: 1.35em;
 }
 article.article .content h4 {
-  font-size: 1.125em;
+  font-size: 1.2em;
 }
 article.article .content h5 {
   font-size: 1em;
+}
+article.article .content p {
+  margin-bottom: 0.5em;
+}
+article.article .content img {
+  transition: all 0.4s;
+  margin: 0.5rem 0;
+}
+article.article .content img:hover {
+  transform: scale(1.06);
+  border-radius: 10px;
+  box-shadow: 0 15px 15px #ccc;
+}
+article.article .content ul {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 article.article .content pre {
   font-size: 0.85em;
